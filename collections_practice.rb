@@ -10,7 +10,6 @@ def sort_array_char_count(strings)
   strings.sort do |a, b|
     a.size <=> b.size
   end
-  return strings
 end
 
 def swap_elements(array)
